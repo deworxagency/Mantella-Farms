@@ -1,70 +1,252 @@
-# Getting Started with Create React App
+# Mantella Farms
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+Mantella Farms is a modern digital platform developed to support the online presence and future digital transformation of Mantella Farms. The platform is designed to provide customers, partners, and stakeholders with information about the business, its products, and its services while establishing a scalable foundation for future agricultural and e-commerce capabilities.
 
-In the project directory, you can run:
+The project is developed and maintained by **Deworx Agency** and follows modern software engineering practices to ensure maintainability, scalability, security, and performance.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Objectives
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The primary objectives of this project are to:
 
-### `npm test`
+* Establish a professional digital presence for Mantella Farms.
+* Showcase the company's products and services.
+* Improve customer engagement.
+* Support future online sales and ordering.
+* Provide a scalable architecture for future business growth.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+# Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Current
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Responsive website
+* Home page
+* About page
+* Products and Services
+* Contact page
+* Mobile-first design
+* Performance optimization
+* Search engine optimization (SEO) foundation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Planned
 
-### `npm run eject`
+* Customer authentication
+* Product catalogue
+* Online ordering
+* Shopping cart
+* Secure payment integration
+* Customer dashboard
+* Order tracking
+* Inventory management
+* Administrative portal
+* News and blog management
+* Image gallery
+* Contact management
+* Email notifications
+* Analytics dashboard
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Technology Stack
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The project leverages modern web technologies.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+| Technology      | Purpose                   |
+| --------------- | ------------------------- |
+| React / Next.js | Frontend Framework        |
+| TypeScript      | Application Development   |
+| Tailwind CSS    | User Interface Styling    |
+| Node.js         | Backend Services          |
+| PostgreSQL      | Database                  |
+| Prisma ORM      | Database Access           |
+| REST APIs       | Application Communication |
+| Git             | Version Control           |
+| GitHub          | Source Code Management    |
 
-## Learn More
+> Update this section as the project evolves.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Project Structure
 
-### Code Splitting
+```text
+mantella-farms/
+│
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── layouts/
+│   ├── pages/
+│   ├── services/
+│   ├── styles/
+│   ├── utils/
+│   └── hooks/
+│
+├── package.json
+├── README.md
+└── ...
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+# Getting Started
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Prerequisites
 
-### Making a Progressive Web App
+Ensure the following software is installed:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* Node.js (Version 20 or later)
+* npm or Yarn
+* Git
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Installation
 
-### Deployment
+Clone the repository:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```bash
+git clone https://github.com/deworxagency/Mantella-Farms.git
+```
 
-### `npm run build` fails to minify
+Navigate into the project directory:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+cd Mantella-Farms
+```
+
+Install project dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Open the application in your browser:
+
+```text
+http://localhost:3000
+```
+
+---
+
+# Build
+
+To create a production build:
+
+```bash
+npm run build
+```
+
+---
+
+# Production
+
+To start the production server:
+
+```bash
+npm start
+```
+
+---
+
+# Roadmap
+
+* Responsive website
+* Product catalogue
+* Customer authentication
+* Customer portal
+* Online ordering
+* Secure payments
+* Inventory management
+* Administrative dashboard
+* Blog and news management
+* Reporting and analytics
+* Cloud deployment
+* Performance monitoring
+
+---
+
+# Development Workflow
+
+1. Create a feature branch.
+
+```bash
+git checkout -b feature/feature-name
+```
+
+2. Make the required changes.
+
+3. Commit your work.
+
+```bash
+git commit -m "Describe your changes"
+```
+
+4. Push your branch.
+
+```bash
+git push origin feature/feature-name
+```
+
+5. Submit a Pull Request for review.
+
+---
+
+# Contributing
+
+Contributions should follow established development standards and coding conventions.
+
+Before submitting changes:
+
+* Ensure code is tested.
+* Follow the project's formatting standards.
+* Update documentation where applicable.
+* Submit changes through a Pull Request.
+
+---
+
+# License
+
+This project is proprietary software owned by **Deworx Agency**.
+
+No part of this project may be copied, modified, distributed, or reproduced without prior written permission from the owner.
+
+---
+
+# Repository
+
+Repository URL:
+
+https://github.com/deworxagency/Mantella-Farms
+
+---
+
+# Maintainer
+
+**Deworx Agency**
+
+Deworx Agency designs and develops scalable digital solutions for businesses across multiple industries, with a focus on modern web applications, cloud technologies, and enterprise software engineering.
+
+---
+
+# Contact
+
+For project enquiries or business collaborations, please contact the project maintainers through the appropriate business channels.
+
+---
+
+# Version
+
+Current Version: **1.0.0**
