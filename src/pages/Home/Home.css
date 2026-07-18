@@ -1,0 +1,276 @@
+/* ── Hero ── */
+.hero {
+  position: relative;
+  min-height: 480px;
+  background-color: #c8a060;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(255,240,220,0.92) 45%, rgba(255,240,210,0.3) 100%);
+}
+
+.hero-inner {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 64px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.hero-content {
+  max-width: 480px;
+}
+
+.hero-eyebrow {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #FF6500;
+  margin-bottom: 12px;
+}
+
+.hero-heading {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.6rem;
+  font-weight: 800;
+  color: #1a1a1a;
+  line-height: 1.15;
+  margin-bottom: 16px;
+}
+
+.hero-sub {
+  font-size: 0.95rem;
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 28px;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.hero-image {
+  flex-shrink: 0;
+  max-width: 420px;
+  width: 45%;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 8px 32px rgba(0,0,0,0.15));
+}
+
+/* ── What We Do ── */
+.what-we-do {
+  padding: 56px 24px;
+  background: #fff;
+}
+
+.what-we-do-inner {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.what-we-do-text {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.7;
+  max-width: 640px;
+}
+
+/* ── Featured Product ── */
+.featured-product {
+  background: #FFF4EB;
+  padding: 40px 24px;
+}
+
+.featured-product-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  background: #FFF4EB;
+  border-radius: 20px;
+}
+
+.featured-product-image-wrap {
+  position: relative;
+  flex-shrink: 0;
+  width: 40%;
+  max-width: 360px;
+}
+
+.featured-product-img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.top-rated-badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: #FF6500;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 6px 10px;
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.2;
+  z-index: 1;
+}
+
+.featured-product-content {
+  flex: 1;
+}
+
+.featured-product-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 14px;
+}
+
+.featured-product-desc {
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+/* ── Catalogue ── */
+.catalogue {
+  padding: 56px 24px;
+  background: #fff;
+}
+
+.catalogue-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.catalogue-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  align-items: start;
+}
+
+/* ── Excellence ── */
+.excellence {
+  background: #FFF4EB;
+  padding: 56px 24px;
+}
+
+.excellence-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}
+
+.excellence-left {
+  flex: 1;
+  max-width: 340px;
+}
+
+.excellence-heading {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  line-height: 1.25;
+  margin-bottom: 20px;
+}
+
+.leaf-decor {
+  width: 36px;
+  height: auto;
+  opacity: 0.85;
+}
+
+.excellence-right {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px 24px;
+}
+
+.excellence-feature {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.85rem;
+  color: #444;
+  font-weight: 500;
+}
+
+/* ── Responsive ── */
+@media (max-width: 900px) {
+  .hero-image {
+    display: none;
+  }
+
+  .hero-heading {
+    font-size: 2rem;
+  }
+
+  .catalogue-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .featured-product-inner {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .featured-product-image-wrap {
+    width: 70%;
+    max-width: 280px;
+    margin: 0 auto;
+  }
+
+  .excellence-inner {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .excellence-left {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-heading {
+    font-size: 1.7rem;
+  }
+
+  .catalogue-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .excellence-right {
+    grid-template-columns: 1fr;
+  }
+}

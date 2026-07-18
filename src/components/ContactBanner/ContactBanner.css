@@ -1,0 +1,86 @@
+.contact-banner {
+  background: #FF6500;
+  padding: 40px 24px;
+}
+
+.contact-banner-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 48px;
+  align-items: flex-start;
+}
+
+.contact-divider {
+  width: 1px;
+  background: rgba(255,255,255,0.3);
+  align-self: stretch;
+}
+
+.contact-col {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.contact-icon-circle {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 2px solid rgba(255,255,255,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  padding: 10px;
+}
+
+.contact-icon-circle svg {
+  width: 20px;
+  height: 20px;
+}
+
+.contact-col-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 6px;
+}
+
+.contact-col-text {
+  font-size: 0.8rem;
+  color: rgba(255,255,255,0.85);
+  line-height: 1.5;
+}
+
+.contact-info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.contact-info-list li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.8rem;
+  color: rgba(255,255,255,0.9);
+}
+
+.contact-info-list svg path {
+  fill: rgba(255,255,255,0.8);
+}
+
+@media (max-width: 768px) {
+  .contact-banner-inner {
+    flex-direction: column;
+    gap: 28px;
+  }
+
+  .contact-divider {
+    width: 100%;
+    height: 1px;
+    align-self: auto;
+  }
+}
